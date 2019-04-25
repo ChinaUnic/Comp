@@ -1,0 +1,128 @@
+.menu {
+	display: grid;
+	grid-template-columns: 1fr 3fr 3fr 3fr;
+	background-image: linear-gradient(white,white,#e6e6ff);
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+body {
+	background: pink;
+	font-family: Chiaro;
+}
+
+a {
+	text-decoration: none;
+	color: pink;
+}
+
+@font-face {
+  font-family: Chiaro;
+  src: url(../font/FOT-ChiaroStd-B.otf);
+}
+
+.home {
+	background: pink;
+	color: white;
+}
+
+.home:hover {
+	background: pink;
+	color: white;
+}
+
+.pictures:hover {
+	background: pink;
+	color: white;
+}
+
+.more:hover {
+	background: pink;
+	color: white;
+}
+
+.cover {
+	background-image: url(../images/cover.png);
+	height: 120vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 5px white solid;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+.double {
+	display: grid;
+	color: white;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+	margin-bottom: 10px;
+}
+
+.left {
+	background: white;
+	height: 100vh;
+	padding: 20px;
+	margin: 10px 10px 10px 10px;
+}
+
+.right {
+	background: white;
+	height: 100vh;
+	padding: 20px;
+	margin: 10px 10px 10px 10px;
+}
+
+.pic {
+	height: 400px;
+	width: 400px;
+	padding-left: 80px;
+}
+
+.button {
+	background-image: linear-gradient(pink,#ff66b3);
+	color: white;
+	padding: 10px;
+	text-align: center;
+	border-radius: 10%;
+}
+
+.button:hover {
+	background-image: linear-gradient(#ff66b3,pink);
+}
+
+.video {
+	margin-bottom: 10px;
+}
+
+.text {
+	height: 50vh;
+	background-image: linear-gradient(white,white,#e6e6ff);
+	color: pink;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+}
+
+button {
+	background-image: linear-gradient(white,pink);
+}
+
+.sometext {
+	padding: 5px;
+	background-image: linear-gradient(white,white,#e6e6ff);
+	margin-bottom: 10px;
+	color: pink;
+	text-align: center;
+}
+
+.footer {
+	background-image: linear-gradient(white,white,#e6e6ff);
+	text-align: center;
+	color: pink;
+}
+
+.vid {
+	transition-delay: 2s;
+}

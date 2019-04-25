@@ -1,0 +1,89 @@
+.menu {
+	display: grid;
+	grid-template-columns: 1fr 3fr 3fr 3fr;
+	background-image: linear-gradient(white,white,#e6e6ff);
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+body {
+	background: pink;
+	font-family: Chiaro;
+}
+
+a {
+	text-decoration: none;
+	color: pink;
+}
+
+@font-face {
+  font-family: Chiaro;
+  src: url(../font/FOT-ChiaroStd-B.otf);
+}
+
+.home:hover {
+	background: pink;
+	color: white;
+}
+
+.pictures:hover {
+	background: pink;
+	color: white;
+}
+
+.more:hover {
+	background: pink;
+	color: white;
+}
+
+.footer {
+	background-image: linear-gradient(white,white,#e6e6ff);
+	text-align: center;
+	color: pink;
+}
+
+.deev {
+	height: 150vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1px;
+	padding: 5px;
+}
+
+.diev {
+	background: white;
+	text-align: center;
+}
+
+.pic {
+	border: 5px pink solid;
+}
+
+li {
+	list-style: none;
+}
+
+.deiv {
+	letter-spacing: 2px;
+	padding: 30px;
+}
+
+.doov {
+	text-align: center;
+}
+
+.roob {
+	color: red;
+}
+
+.under {
+	height: 200vh;
+}
+
+.pics {
+	height: 150vh;
+	background: white;
+	background-image: url(../images/pic.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}

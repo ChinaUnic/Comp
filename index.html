@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>This is the home page.</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="menu">
+			<img src="images/logo.png" height="30px" width="30px">
+			<a href="#"><div class="home">Home</div></a>
+			<a href="pictures.html"><div class="pictures">Pictures</div></a>
+			<a href="more.html"><div class="more">More</div></a>
+		</div>
+		<div class="cover">
+			<a class="vid" href="#video"><img src="images/vid.png" height="50px" width="50px"></a>
+		</div>
+		<div class="double">
+			<div class="left">
+				<img class="pic" src="images/rob.png">
+				<a href="go1.html"><h2 class="button">GO</h2></a>
+			</div>
+			<div class="right">
+				<img class="pic" src='images/chibi.png' onmouseover="this.src='images/chibi2.png';" onmouseout="this.src='images/chibi.png';">
+				<a href="go2.html"><h2 class="button">GO</h2></a>
+			</div>
+		</div>
+		<div class="sometext">
+		<p>The first colored animation I ever made.</p>
+		</div>
+		<div class="video" id="video">
+			<video height="700vh" width="1248vh" controls>
+			<source src="videos/convenience-store.mp4" type="video/mp4">
+			<source src="videos/convenience-store.ogg" type="video/ogg">
+			</video>
+		</div>
+		<div class="text">
+			<h1 class="h1">ABOUT MY WEBSITE</h1>
+			<p>This website is about my artworks and about myself. This is where I would put my creations, ideas, and many other things.</p>
+			<p>Please support my website :).</p>
+			<p>Just so you know, I DREW EVERYTHING HERE.</p>
+			<audio id="sound2" src="music/yeah.WAV" preload="auto"></audio>
+			<button onclick="document.getElementById('sound2').play();">Yeah</button>
+			<audio id="sound1" src="music/no.WAV" preload="auto"></audio>
+			<button onclick="document.getElementById('sound1').play();">No</button>
+		</div>
+		<div class="footer">
+			<p>&copy CKC</p>
+		</div>
+	</body>
+</html>
